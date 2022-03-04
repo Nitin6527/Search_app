@@ -1,0 +1,97 @@
+.coverImage {
+  background: url("https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 700px;
+  color: white;
+}
+
+.cover_content {
+  margin-left: 200px;
+}
+
+.section_one {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+}
+.content p {
+  font-size: 16px;
+  letter-spacing: normal;
+}
+.content p mark {
+  background-color: rgb(243, 255, 71);
+}
+.image1 {
+  border-radius: 5%;
+  height: 300px;
+  width: 500px;
+}
+
+@media only screen and (min-width: 1358px) and (max-width: 1440px) {
+  .coverImage {
+    background: url("https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;
+  }
+  .cover_content {
+    margin-left: 15px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+  .image1 {
+    border-radius: 5%;
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1358px) {
+  .coverImage {
+    background: url("https://images.unsplash.com/photo-1635236066449-5b45769be233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;
+  }
+  .cover_content {
+    margin-left: 15px;
+  }
+  .section_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0px;
+  }
+  .content p {
+    font-size: 12px;
+  }
+  .image1 {
+    border-radius: 5%;
+    height: 200px;
+    width: 300px;
+  }
+}
